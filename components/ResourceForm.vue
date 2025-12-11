@@ -207,7 +207,7 @@
 
 <script setup>
 import { ref, watch, computed, reactive, onMounted, nextTick } from 'vue'
-import resourceService from '../services/resourceService'
+import resourceService from '@/services/resourceService'
 
 const props = defineProps({
     model: Object

@@ -67,7 +67,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import subService from '../services/subresourceService'
+import subService from '@/services/subresourceService'
 import SubResourceForm from './SubResourceForm.vue'
 
 const props = defineProps({ resourceId: String })

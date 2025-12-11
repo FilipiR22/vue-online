@@ -74,7 +74,7 @@
 
 <script setup>
 import { ref, watch } from 'vue'
-import subService from '../services/subresourceService'
+import subService from '@/services/subresourceService'
 
 const props = defineProps({
     model: Object,

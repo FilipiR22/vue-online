@@ -273,7 +273,7 @@
 <script setup>
 import { ref, reactive, onMounted, computed, watch } from 'vue'
 import { useRouter } from 'vue-router'
-import recursoService from '../services/resourceService'
+import recursoService from '@/services/resourceService'
 import SubResourceList from './SubResourceList.vue'
 import SubResourceForm from './SubResourceForm.vue'
 
