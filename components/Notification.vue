@@ -16,6 +16,7 @@ function show({ message: m, type: t = 'info', timeout = 3000 }) {
 }
 
 defineExpose({ show })
+
 </script>
 
 <style>
