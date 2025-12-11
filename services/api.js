@@ -4,7 +4,7 @@ import router from '../router/index.js' // Verifique o caminho correto
 
 // Configuração base do axios
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api',
+    baseURL: import.meta.env.VITE_API_URL || 'https://vue-back-simulado.onrender.com',
     timeout: 5000, // Aumentei para 5s (melhor para operações CRUD)
     headers: {
         'Content-Type': 'application/json',
